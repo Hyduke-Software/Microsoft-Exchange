@@ -1,4 +1,4 @@
-#Hyduke-Software.net 2019
+#https://github.com/Hyduke-Software/Microsoft-Exchange
 #Works in Exchange 2010, untested in Exchange 2013 as of January 2nd 2018
 #This will find and get all mailbox databases then find the disconnected mailboxes
 
