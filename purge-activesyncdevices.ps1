@@ -1,7 +1,8 @@
+#https://github.com/Hyduke-Software/Microsoft-Exchange
 #Tool for removing ALL activesync devices attached to a user, such as Windows Phones, Android tablets and iPads
 #Compatible with Microsoft Exchange 2010
 
-Write-host "This will remove ALL ActiveSync devices the users has assigned" -foregroundcolor DarkMagenta
+Write-host "This will remove ALL ActiveSync devices the user has assigned" -foregroundcolor DarkMagenta
 $user = read-host "Enter e-mail address of user to remove all ActiveSync devices" 
 
 $devguids = Get-ActiveSyncDeviceStatistics -mailbox $user
@@ -19,4 +20,3 @@ remove-activesyncdevice $gstring
 #ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #Last update: 26/06/2019
-#Hyduke-Software.net 2019
