@@ -1,10 +1,10 @@
-#Hyduke-Software.net 2019
+#https://github.com/Hyduke-Software/Microsoft-Exchange
 #Compatible with Microsoft Exchange 2010
 
 
 # adds the send on behalf of permission for multiple users to multiple mailboxes
 # two text files are required for this to run
-# users.txt; containing a list of user's identity such as display name or username in add
+# users.txt; containing a list of user's identity such as display name or username
 # mailbox.txt; containing a list of mailbox idendities
 # all users receive permission to all mailboxes in the files.
 
