@@ -1,4 +1,5 @@
-# Checks the state of Mailbox Database Copies
+#https://github.com/Hyduke-Software/Microsoft-Exchange
+#Checks the state of Mailbox Database Copies
 #Compatible with Microsoft Exchange 2010, likely Microsoft Exchange 2013 too
 
 
