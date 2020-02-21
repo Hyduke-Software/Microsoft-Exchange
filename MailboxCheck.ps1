@@ -1,4 +1,9 @@
-$count =0
+#https://github.com/Hyduke-Software/Microsoft-Exchange
+#Compatible with Microsoft Exchange 2010
+#A quick script to perform a few basic tests on a mailbox, with a few quick fixes
+#TODO: Add a sub to check for over mailbox/archive over quota
+
+
 $mailboxname = read-host "Enter username"
 $mailbox = get-mailbox $mailboxname
 if ($mailbox -eq $null)
