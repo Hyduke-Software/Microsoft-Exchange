@@ -27,7 +27,8 @@ if ($command -gt $count -or $command -lt 0){
     break
 }
 $selectedCommand = $fileNameArray[$command]
-Invoke-Expression ".\$selectedCommand"
+Invoke-Expression ".\$selectedCommand" #runs the named script then comes back here
+Invoke-Expression .\PS1-Lister-and-easy-Run.ps1 #runs this script again after finishing the invoked script
 
 #THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
 #INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
